@@ -1,6 +1,6 @@
 Never Give up ➜ Keep Going
 
-# ☕ Chai Aur React
+# Chai Aur React
 
 <div><i>Sarfaraz Running Notes</i></div>
 
@@ -46,7 +46,7 @@ Never Give up ➜ Keep Going
 
   #### When should we learn React?
 
-  - After mastering javascript ➜ when you think you can any project with javascript without react
+  - After mastering javascript ➜ when you think you can do any project with javascript without reactjs.
 
   #### Why react is created?
 
@@ -90,7 +90,7 @@ Never Give up ➜ Keep Going
 ## Create React Projects
 
 - Tools: VS Code, Nodejs - gives the environment,
-- Open the terminal ➜ and check node -v
+- Open the terminal ➜ and check node/ -v
 - React documentation: react.dev
 
   ### Run the github commands
@@ -101,3 +101,41 @@ Never Give up ➜ Keep Going
   - git branch -M main
   - git remote add origin 'url'
   - git push -u origin main
+
+- It is always advisable to learn from documentation, so that any update happen, we can learn quickly.
+- We can create react application using ** vite or Versal ** these are bundler which budle everything and gives 1 file.
+- **npm**: Node packae manager, Which allows to install the packages in node
+
+  ### Create Project using react
+
+  - **npx**: Node package executor, which help to create the new project in react.
+  - npx create-react-app 01basicreact ➜ Here, 'create-react-app' is the utility or software and '01basicreact' is the application name. ➜ This is slow way of creating the application.
+  - There are other ways to create the react application fasster like vite or versal.
+  - Go to the project and run 'npm start'.
+
+  ### **package.json**: 1st entry point,
+
+  - Here, it will give the list of dependencies list
+  - web-vitals: We can track the performance of the application.
+    #### scripts:
+    - start: to run the project in dev environment.
+    - build: when project goes in production, it behaves differently, so we generate files in html, css, js using build process.
+    - test: To run the test case
+    - eject: eject from react application usage. that react work is over, will use other library.
+  - Linting: to show the error or warning messages
+  - browserlist: on which browser i ll work.
+
+- To run the project ➜ use 'npm start', here we can say run start or simply start.
+- **npm run build**: It created the build folder ➜ which has all the static files available. ➜ build folder only serves to the user not src.
+- As create-react-app project is taking too much time and bucky, we will be using vite to create the react application.
+
+  ### Creating react application using vite
+
+  - npm create vite@latest
+  - y
+  - Give project name
+  - select 'React'
+  - select 'javaScript'
+  - Now project is created, check the package.json
+  - cd 01vitereact --> npm install --> npm run dev --> open the url localhost:5173
+  - We will be in mostly src folder
