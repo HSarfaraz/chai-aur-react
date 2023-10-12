@@ -139,3 +139,22 @@ Never Give up ➜ Keep Going
   - Now project is created, check the package.json
   - cd 01vitereact --> npm install --> npm run dev --> open the url localhost:5173
   - We will be in mostly src folder
+
+
+## Flow & Strcuture
+
+- In package-lock.json, all the stable version is locked down.
+- Eevrything mostly work is done in src folder or public folder
+- **index.html**: This is the main file which will load on the page.
+- noscript says if the javascript is disabled in any browser kindly enable it.
+  #### **index.js**:
+  - React uses its own DOM, DOM is a tree structure of elements which we call it as vitrual DOM and compare with actual DOM and give the differnce on UI.
+  - Here it create and search the root element id --> says render the html from App component.
+  - JSX is similar to html custom tags.
+- App is simply a function which return a html, export it --> render the html
+- react-script is responsible for loading index.js into index.html in create-react-app application creation but for vite, the script is dorectly loaded in index.html file.
+- Either vite or create-react-app both are working same, just vite is light weight
+- lets create a file chai.js in src folder.
+- When we are creating any application using vite, it is advisable to use jsx extension file and Component name should starts with Uppercase letter.
+- React components are simply pure javascript functions.
+- JSX should be wrapped in sinlge element only, as JSX will return only 1 element.
