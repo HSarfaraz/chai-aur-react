@@ -1,9 +1,6 @@
+import Chai from "./Chai";
 function App() {
-  return (
-    <>
-      <h1>Chai Aur React | Sarfaraz</h1>
-    </>
-  );
+  return <Chai />;
 }
 
 export default App;
